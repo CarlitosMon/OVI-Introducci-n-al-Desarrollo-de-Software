@@ -1,0 +1,62 @@
+@font-face{
+	font-family: 'Bazar';
+	src: local('Bazar'),
+		url(../font/Bazar.ttf)
+		format('opentype');
+}
+
+#Principal{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+header {
+	width: 100%;
+	height: 200px;
+}
+
+h1{
+	font-family: 'Bazar';
+	text-align: center;
+}
+
+.vertical-menu {
+    width: 200px;
+	float: left;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+section{
+	width:500px;
+	float: left;
+	border-style: solid;
+}
+
+aside{
+	width: 500px;
+	float: left;
+}
+
+footer{
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
