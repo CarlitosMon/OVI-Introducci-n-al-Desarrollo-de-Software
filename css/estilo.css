@@ -4,6 +4,12 @@
 		url(../font/Bazar.ttf)
 		format('opentype');
 }
+@font-face{
+	font-family: 'AnisaSans';
+	src: local('AnisaSans'),
+		url(../font/AnisaSans.ttf)
+		format('opentype');
+}
 
 #Principal{
 	width: 1200px;
@@ -17,6 +23,7 @@
 }
 
 header {
+	background: url('../images/Header_franja.png') repeat-x scroll 0 white;
 	width: 1200px;
 	height: 100px;
 	float: left;
@@ -28,8 +35,9 @@ h1{
 }
 
 .vertical-menu {
-    width: 200px;
+    width: 250px;
 	float: left;
+	margin: 0 20px 20px 0px;
 }
 
 .vertical-menu a {
@@ -55,6 +63,7 @@ section{
 	padding-left: 20px;
 	margin: 0 20px 20px 0px;
 	border-left: 2px dotted #b2a497;
+	font-family: 'AnisaSans';
 }
 
 aside{
@@ -63,8 +72,12 @@ aside{
 
 footer{
 	clear:both !important;
-	width:940px;
-	height: 100px;
+	width:100%;
+	height: 80px;
 	padding: 10px;
-	color:#200f08 ;
+	background: #eee; 
+    background: -webkit-linear-gradient(left top, #eee, #4CAF50); 
+    background: -o-linear-gradient(bottom right, #eee, #4CAF50); 
+    background: -moz-linear-gradient(bottom right, #eee, #4CAF50); 
+    background: linear-gradient(to bottom right, #eee, #4CAF50); 
 }
